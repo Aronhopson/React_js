@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+header{
+    background: #03a9f4;
+    text-align: center
+}
+.logo{
+    color: white;
+    font-size: 100px;
+    font-display: "Anton"
+}
+header input {
+    font-size: 25px;
+    margin: 20px 0;
+}
