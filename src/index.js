@@ -4,7 +4,7 @@
  import JSON from './db.json';
  //COMPONENTS
  import Header from './components/header'
- import BodyList from './components/news_list'
+ import Newslist from './components/news_list'
 
 class App  extends Component {
     state= {
@@ -14,7 +14,9 @@ class App  extends Component {
         return ( 
             <div>
                    <Header/>
-                   <BodyList naya= {this.state.news}/>
+                   <Newslist naya= {this.state.news}>
+                        Hey   BUDDY
+                   </Newslist>
             </div>
         ) 
     }

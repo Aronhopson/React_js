@@ -14,3 +14,6 @@ header input {
     font-size: 25px;
     margin: 20px 0;
 }
+.News_Item{
+    background: "gray";
+}

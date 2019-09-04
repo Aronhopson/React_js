@@ -7,14 +7,14 @@ import "../css/style.css"
 class Header extends Component {
 
     state = {
-        keyswords: "  "
+        keyswords: " "
     }
 
     inputChangeHandler = (event) =>{
         // console.log(event.target.value)
         this.setState({
             keyswords : event.target.value
-        })
+        });
     }
 
     render(){

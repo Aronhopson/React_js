@@ -1,20 +1,23 @@
 import React from 'react'
+import NewsItem from "./news_list_item";
 
-const BodyList = (props) =>{      //props is default from react ..... it is key features of reacts
+
+const NewsList = (props) =>{      //props is default from react ..... it is key features of reacts
        
-    const items =props.naya.map((item) => {
+    const items = props.naya.map((item) => {   //map() is ES6 doing kind of forloop
           return(
-              <div>
-                  <h1>{item.title}</h1>
-                  <div>{item.feed}</div>
-              </div>
+              <NewsItem key={item.id} item={item}></NewsItem>  //Modular javaScript
+
           )
+           
     });
     return (
             <div>
+                {props.children}
                 {items}
             </div>
         )
 }
 
-export default BodyList; 
+export default NewsList; 
+

@@ -118,3 +118,50 @@
 //         ) 
 //     }
 // }
+//========================style change color==============
+
+ //const style = {
+    //     background : "red"
+    // }
+
+    // if(this.state.keyswords !== " "){
+    //     style.background = "green"
+    // } else {
+    //     style.background = "blue"
+    // }
+////=============================style css===================
+//     import React from "react";
+// import {css} from "glamor"
+
+// const NewsItem = ({item}) =>{
+
+//     let news_list = css ({
+//         padding: "20px",
+//         boxSizing: "border-box",
+//         borderBottom: "2px solid blue",
+//          ':hover' :{
+//             color: "green"
+//         },
+//         "@media(max-width : 500px)" : {
+//             color : "blue"
+//         }
+//     }) 
+
+//     let news_item = css ({
+//         background: "gray"
+//     })
+
+//     return(
+//          //ES6 template string   =============   {template string is same as 3 doots}
+//          <div className= {`${news_list} ${news_item}`}>  
+//         {/* //here three dots id ES6 grabbing all element of newskist and putting it on (return) */}
+//          {/* <div {...newslist} {...newsitem}>            */}
+//             <h1>{item.title}</h1>
+//             <div>{item.feed}</div> 
+//         </div>  
+//     )
+// }
+
+// export default NewsItem;
+
+
