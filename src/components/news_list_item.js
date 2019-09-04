@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../css/style.css"
+import styless from "../css/style.css"
 
 const NewsItem = ({item}) =>{
 
@@ -7,7 +7,7 @@ const NewsItem = ({item}) =>{
 
     return(
     
-         <div className= {classes.News_Item}>  
+         <div className= {styless.lolo}>  
              <h1>{item.title}</h1>
             <div>{item.feed}</div> 
         </div>  
